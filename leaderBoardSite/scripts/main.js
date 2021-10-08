@@ -8,7 +8,7 @@ const addToLeaderBoard = (i, obj) => {
     <tr class="row">
             <td class="cell">${i}</td>
             <td class="cell ${obj.color}">
-                ${obj.name.toLowerCase()}
+                ${obj.nickname.toLowerCase()}
             </td>
             <th class="cell robo">${obj.trackOne}</th>
             <th class="cell robo">${obj.trackTwo}</th>
