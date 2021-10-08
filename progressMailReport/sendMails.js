@@ -14,7 +14,7 @@ const init = async () => {
     let db = dbFunc.read("db.json")
     db = JSON.parse(db)
     db = db["participants"]
-
+    
     let divisor = Math.ceil(db.length / cred.length)
     console.log("\n--Sending mails---\n");
     for (let i = 0; i < db.length; i++) {
