@@ -1,0 +1,5 @@
+node_modules
+
+rawParticipantsData.json
+db.json
+cred.js
