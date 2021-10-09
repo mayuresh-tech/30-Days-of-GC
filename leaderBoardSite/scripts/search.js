@@ -11,7 +11,7 @@ inpBar.oninput = () => {
     if (inp.length > 0) {
 
         for (let i = 0; i < leaderBoardData.length; i++) {
-            let obj = leaderBoardData[i].name.toLowerCase()
+            let obj = leaderBoardData[i].nickname.toLowerCase()
 
             if (obj.includes(inp)) {
                 tbody[i + 1].style.display = ""
